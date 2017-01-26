@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	background-color: #ffffff;
+	font-family: Roboto, Sans-Serif;
+}
+
+h1 {
+	color: #003747;
+	font-family: Roboto Black;
+	font-size: 48px;
+	text-align: center;
+}
+h3 {
+	color: #002530;
+	font-family: Roboto Bold;
+	font-size: 36px;
+}
+
+h4 {
+	color: #002530;
+	font-family: Roboto Regular;
+	font-size: 24px;
+}
+
+p {
+	color: #000000;
+	font-family: Roboto Light;
+	font-size: 16px;
+}
