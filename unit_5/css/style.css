@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #ffffff;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight:700;
+}
+h3 {
+	font-size: 32px;
+	font-weight:700;
+}
+
+h4 {
+	font-size: 24px;
+	font-weight:400;
+}
+#hero {
+	background:url(../images/temp_image.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:#fff;
+	padding:20em 0;
+	text-align:center;
+}
