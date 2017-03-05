@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	font-size: 16px;
+}
+h1 {
+	font-size: 3em;
+	font-weight:700;
+}
+h3 {
+	font-size: 2em;
+	font-weight:700;
+}
+h4 {
+	font-size: 1.5em;
+	font-weight:400;
+}
+#hero {
+	background:url(../images/temp_image.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:#fff;
+	padding:20em 0;
+	text-align:center;
+}
+/*nhow to re-zise hero image for 480 screen width*/
+.wrapper {
+	padding:2em;
+}
+nav {
+	font-size: 1.5em;
+  	float: right;
+}
+/*nav must be on top of image, clearfix not working??*/
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 1em;
+}
+#about {
+	padding:1.5em;
+}
+#projects {
+	padding:1.5em;
+}
+#project1 {
+	padding:1.5em;
+}
+#project2 {
+	padding:1.5em;
+}
+#project3 {
+	padding:1.5em;
+}
+.project_column {
+	float: left;
+	width: 33.3%;
+}
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+}
+img {
+	width: 75%;
+}
+p {
+	font-size: 1em;
+}
+/*captions do not re-size*/
+@media only screen and (min-width: 768px) {
+#projects {
+	padding:1.5em;
+	}
+	.project_column {
+	width: 33.3%;
+	display: block;
+}
+/*3 columns images getting to small*/
+}
+@media only screen and (min-width: 480px) {
+#projects {
+	padding:1.5em;
+	}
+	.project_column {
+	width: 33.3%;
+	display: block;
+}
+/*3 columns do not stack when resizing browser*/
+}
